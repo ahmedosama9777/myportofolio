@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.98e7d24a.chunk.css",
-    "main.js": "./static/js/main.ba158df4.chunk.js",
-    "main.js.map": "./static/js/main.ba158df4.chunk.js.map",
+    "main.css": "./static/css/main.dc7d1dab.chunk.css",
+    "main.js": "./static/js/main.e4d6d6df.chunk.js",
+    "main.js.map": "./static/js/main.e4d6d6df.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.6fca7437.chunk.js": "./static/js/2.6fca7437.chunk.js",
-    "static/js/2.6fca7437.chunk.js.map": "./static/js/2.6fca7437.chunk.js.map",
+    "static/js/2.c7b26e6d.chunk.js": "./static/js/2.c7b26e6d.chunk.js",
+    "static/js/2.c7b26e6d.chunk.js.map": "./static/js/2.c7b26e6d.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f7adfad52b8dd6f12209743aaf27bc77.js": "./precache-manifest.f7adfad52b8dd6f12209743aaf27bc77.js",
+    "precache-manifest.d5e0c3db224e22e6b0592bec6a6e079b.js": "./precache-manifest.d5e0c3db224e22e6b0592bec6a6e079b.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.98e7d24a.chunk.css.map": "./static/css/main.98e7d24a.chunk.css.map",
+    "static/css/main.dc7d1dab.chunk.css.map": "./static/css/main.dc7d1dab.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.16559172.svg",
-    "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.eaf02c2d.png",
+    "static/media/ahmed_mohamed.png": "./static/media/ahmed_mohamed.6d26fdeb.png",
+    "static/media/algoexpert.png": "./static/media/algoexpert.1b081d77.png",
     "static/media/animated_logo.svg": "./static/media/animated_logo.dcd6dee2.svg",
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
+    "static/media/cairo_uni.png": "./static/media/cairo_uni.a2e407a5.png",
     "static/media/cloud_infrastructure.svg": "./static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "./static/media/codeInLogo.fee92c18.png",
     "static/media/contactMail.png": "./static/media/contactMail.5f915405.png",
@@ -53,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.6fca7437.chunk.js",
-    "static/css/main.98e7d24a.chunk.css",
-    "static/js/main.ba158df4.chunk.js"
+    "static/js/2.c7b26e6d.chunk.js",
+    "static/css/main.dc7d1dab.chunk.css",
+    "static/js/main.e4d6d6df.chunk.js"
   ]
 }

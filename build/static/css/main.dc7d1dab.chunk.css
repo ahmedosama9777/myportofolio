@@ -1627,8 +1627,12 @@ canvas {
 .contact-heading-text-div {
   text-align: center;
 }
-.blog-heading-img-div > *,
 .contact-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40%;
+}
+.blog-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
@@ -6469,4 +6473,4 @@ canvas {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.98e7d24a.chunk.css.map */
+/*# sourceMappingURL=main.dc7d1dab.chunk.css.map */
