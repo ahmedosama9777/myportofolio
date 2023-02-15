@@ -52,16 +52,20 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Design and implement applications backend in Django, Flask & Spring Boot",
+        "⚡ Develope fronends using React",
+        "⚡ Designing and implementing RESTful APIs",
         "⚡ Scale backend to handle millions of requests per second",
+        "⚡ Collaborate with Front-end developers to integrate user-facing elements with server side logic",
+        "⚡ Work with the product and design teams to understand end-user requirements, formulate use cases, and then translate that into a pragmatic and effective technical solution",
       ],
       softwareSkills: [
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -69,7 +73,7 @@ const skills = {
         },
         {
           skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
+          fontAwesomeClassname: "logos:django",
           style: {
             backgroundColor: "transparent",
           },
@@ -82,25 +86,65 @@ const skills = {
           },
         },
         {
+          skillName: "Java",
+          fontAwesomeClassname: "skill-icons:java-light",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "logos:postgresql",
           style: {
             color: "#336791",
           },
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          fontAwesomeClassname: "logos:mysql",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          fontAwesomeClassname: "logos:mongodb-icon",
           style: {
             color: "#47A248",
           },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "logos:react",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "gRPC",
+          fontAwesomeClassname: "logos:grpc",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Celery",
+          fontAwesomeClassname: "simple-icons:celery",
+          style: {},
         },
         {
           skillName: "AWS",
@@ -125,23 +169,97 @@ const skills = {
         },
         {
           skillName: "Nginx",
-          fontAwesomeClassname: "simple-icons:nginx",
+          fontAwesomeClassname: "vscode-icons:file-type-nginx",
           style: {
             color: "#47A248",
           },
         },
         {
           skillName: "RabbitMQ",
-          fontAwesomeClassname: "simple-icons:rabbitmq",
+          fontAwesomeClassname: "logos:rabbitmq-icon",
           style: {
             color: "#FF6600",
           },
         },
         {
           skillName: "Redis",
-          fontAwesomeClassname: "simple-icons:redis",
+          fontAwesomeClassname: "logos:redis",
           style: {
             color: "#C6302B",
+          },
+        },
+        {
+          skillName: "Microservices",
+          fontAwesomeClassname: "carbon:microservices-1",
+          style: {},
+        },
+        {
+          skillName: "CI/CD",
+          fontAwesomeClassname: "clarity:ci-cd-line",
+          style: {},
+        },
+      ],
+    },
+    {
+      title: "Data & Infrastructure Engineering",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Create, execute and manage data pipelines, while scaling and improving performance",
+        "⚡ Build and deliver new tools to collect and validate data, sample the data using different strategies",
+        "⚡ Write infrastructure as a code",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Groovy",
+          fontAwesomeClassname: "vscode-icons:file-type-groovy",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "logos:jenkins",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "GitLab",
+          fontAwesomeClassname: "logos:gitlab",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
           },
         },
       ],
@@ -182,14 +300,13 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Cairo University - Faculty of Engineering",
-      subtitle:
-        "Bachelor of Science in Computer and Communications Engineering",
+      title: "Faculty of Engineering - Cairo University",
+      subtitle: "Bachelor Degree - Computer and Communications Engineering",
       logo_path: "cairo_uni.png",
       alt_name: "Cairo University",
       duration: "2015 - 2020",
       descriptions: [
-        "⚡ I have studied Data Structures & Algorithms, Design Patterns, Software Engineering, Machine Learning and Mathematics.",
+        "⚡ Studied Data Structures & Algorithms, Design Patterns, Software Engineering, Machine Learning and Mathematics.",
         "⚡ Designed and implemented the software of an electric vehicle and contributed as a member of Cairo Uni Racing Team in the international competition Formula Student by IMechE in the UK.",
         "⚡ Designed and implemented the software of an autonomous racing vehicle as the graduation project.",
       ],
@@ -281,26 +398,28 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
+          title: "Software Engineer",
+          company: "One Lab Egypt",
+          company_url: "",
+          logo_path: "One-Lab-Logo.jpg",
+          duration: "Oct 2019 - July 2020",
+          location: "Cairo, Egypt",
+          description: [
+            "⚡ AutoRace: Computer Vision/Embedded Systems development (Python/C++)",
+          ],
+          color: "#0879bf",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+          title: "Software Engineer",
+          company: "Egyptian Ambulance Organization",
+          company_url: "",
+          logo_path: "ambulance.jpg",
+          duration: "June 2018 - Sep 2019",
+          location: "Cairo, Egypt",
+          description: [
+            "⚡ Automated surgery waiting list: Backend web application development (PHP/Laravel)",
+          ],
+          color: "#0879bf",
         },
       ],
     },
@@ -308,60 +427,37 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+          title: "Robotics Team Lead & Electrical Technical Director",
+          company: "Cairo Uni Racing Team",
+          company_url: "",
+          logo_path: "curt.jpg",
+          duration: "Sep 2019 - Aug 2020",
+          location: "Cairo, Egypt",
+          description: [
+            "⚡ Designed and implemented a reliable and robust perception pipeline based on a single monocular camera.",
+            "⚡ Designed and implemented a simultaneous localisation and mapping module.",
+            "⚡ Integrated all software modules through a ROS skeleton.",
+            "⚡ Simulated and visulized the full functioning driverless vehicle.",
+            "⚡ Managed a team of 30 members to design and simulate the electrical system of a formula-style electric vehicle.",
+            "⚡ tools: Python, PyTorch, ROS, rviz, git.",
+          ],
+          color: "#0879bf",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+          title: "Embedded Systems Team Lead",
+          company: "Cairo Uni Racing Team",
+          company_url: "",
+          logo_path: "curt.jpg",
+          duration: "Aug 2018 - Aug 2019",
+          location: "Cairo, Egypt",
+          description: [
+            "⚡ Along side a team, designed, simulated and manufactured a formula style electric vehicle.",
+            "⚡ Using ARM controllers, built an embedded system of several electronic control units connected through CAN protocol.",
+            "⚡ Managed a team of seven members to work together under a V-model of development.",
+            "⚡ Gained deep and intensive knowledge and practical experience in embedded systems and automotive industry.",
+            "⚡ tools: C++, C, git, ARM controllers, CAN protocol.",
+          ],
+          color: "#0879bf",
         },
       ],
     },
