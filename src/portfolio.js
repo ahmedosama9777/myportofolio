@@ -56,11 +56,11 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Design and implement applications backend in Django, Flask & Spring Boot",
-        "⚡ Develope fronends using React",
-        "⚡ Designing and implementing RESTful APIs",
+        "⚡ Design and implement RESTful APIs",
         "⚡ Scale backend to handle millions of requests per second",
         "⚡ Collaborate with Front-end developers to integrate user-facing elements with server side logic",
         "⚡ Work with the product and design teams to understand end-user requirements, formulate use cases, and then translate that into a pragmatic and effective technical solution",
+        "⚡ Develope frontend web pages and mobile applications using React",
       ],
       softwareSkills: [
         {
