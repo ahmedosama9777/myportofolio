@@ -1743,7 +1743,7 @@ canvas {
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   cursor: pointer;
-  flex: 1 1 25%;
+  flex: 1 1 60%;
 }
 .repo-card-div:hover {
   box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
@@ -6473,4 +6473,4 @@ canvas {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.907417cf.chunk.css.map */
+/*# sourceMappingURL=main.1cdbfe3a.chunk.css.map */
