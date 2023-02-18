@@ -169,7 +169,7 @@
     },
     function (e) {
       e.exports = JSON.parse(
-        '{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"Kairo Merch","createdAt":"15-12-2020","url":"https://kairomerch.com/","description":"Kairo Merch is the fastest free solution for independent artists to launch an online shop. For customers, it\'s where they can purchase everyday products with unique art designed by featured Artists.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos:python"},{"name":"Django","iconifyClass":"vscode-icons:file-type-django"},{"name":"PostgreSQL","iconifyClass":"logos:postgresql"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"}]}]}'
+        '{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"Kairo Merch","createdAt":"15-12-2020","url":"https://dashboard.kairomerch.com/","description":"Kairo Merch is the fastest free solution for independent artists to launch an online shop. For customers, it\'s where they can purchase everyday products with unique art designed by featured Artists.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos:python"},{"name":"Django","iconifyClass":"vscode-icons:file-type-django"},{"name":"PostgreSQL","iconifyClass":"logos:postgresql"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"}]}]}'
       );
     },
     ,
@@ -8445,4 +8445,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.671531e4.chunk.js.map
+//# sourceMappingURL=main.39727679.chunk.js.map
