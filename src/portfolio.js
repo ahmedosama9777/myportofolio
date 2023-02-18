@@ -466,7 +466,7 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projects & Open Source Contributions",
   description:
     "My projects make use of vast variety of latest technology tools. My best experience is creating the backend of solutions to complex problems, deploy and scale the system.",
   avatar_image_path: "projects_image.svg",

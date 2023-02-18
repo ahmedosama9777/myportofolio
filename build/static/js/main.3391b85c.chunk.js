@@ -169,7 +169,7 @@
     },
     function (e) {
       e.exports = JSON.parse(
-        '{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"Kairo Merch","createdAt":"15-12-2020","url":"https://dashboard.kairomerch.com/","description":"Kairo Merch is the fastest free solution for independent artists to launch an online shop. For customers, it\'s where they can purchase everyday products with unique art designed by featured Artists.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos:python"},{"name":"Django","iconifyClass":"vscode-icons:file-type-django"},{"name":"PostgreSQL","iconifyClass":"logos:postgresql"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"}]}]}'
+        '{"data":[{"id":"=","name":"Code-GPT","createdAt":"18-02-2023","url":"https://marketplace.visualstudio.com/items?itemName=vaibhavacharya.code-gpt-va","description":"Code-GPT is an extension for VS Code that provides you instant explanations for your code within the code editor using AI.","isFork":true,"languages":[{"name":"TypeScript","iconifyClass":"vscode-icons:file-type-typescript-official"},{"name":"VS Code Extensions API","iconifyClass":"vscode-icons:file-type-vscode"}]},{"id":"1","name":"V7 Darwin Python SDK","createdAt":"29-09-2022","url":"https://pypi.org/project/darwin-py/","description":"Library and commandline tool for managing datasets on darwin.v7labs.com","isFork":true,"languages":[{"name":"Python","iconifyClass":"logos:python"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"Kairo Merch","createdAt":"15-12-2020","url":"https://dashboard.kairomerch.com/","description":"Kairo Merch is the fastest free solution for independent artists to launch an online shop. For customers, it\'s where they can purchase everyday products with unique art designed by featured Artists.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos:python"},{"name":"Django","iconifyClass":"vscode-icons:file-type-django"},{"name":"PostgreSQL","iconifyClass":"logos:postgresql"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"}]}]}'
       );
     },
     ,
@@ -903,7 +903,7 @@
             },
           ],
         },
-        B = "Projects",
+        B = "Projects & Open Source Contributions",
         O =
           "My projects make use of vast variety of latest technology tools. My best experience is creating the backend of solutions to complex problems, deploy and scale the system.",
         U = {
@@ -8445,4 +8445,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.39727679.chunk.js.map
+//# sourceMappingURL=main.3391b85c.chunk.js.map
